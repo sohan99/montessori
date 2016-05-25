@@ -14,21 +14,98 @@
 .demo-card-wide > .mdl-card__title {
   color: #fff;
   height: 176px;
-  background: url('../assets/demos/welcome_card.jpg') center / cover;
+  /*background: url('../assets/demos/Diversity_knowledge_book_tree.ai.svg') center / cover;*/
 }
 .demo-card-wide > .mdl-card__menu {
   color: #fff;
 }
 
 
+
 /* header */
 
-.demo-layout-transparent {
-  background: url('../assets/demos/transparent.jpg') center / cover;
+.kids-background {
+  background: url('../assets/demos/scene1_without_clouds_apple.svg') center / cover;
 }
-.demo-layout-transparent .mdl-layout__header,
-.demo-layout-transparent .mdl-layout__drawer-button {
-  /* This background is dark, so we set text to white. Use 87% black instead if
-     your background is light. */
-  color: white;
+
+
+/* header */
+.demo-layout-waterfall .mdl-layout__header-row .mdl-navigation__link:last-of-type  {
+  padding-right: 0;
 }
+
+.normal-background{
+
+  background-color: #455A64;
+}
+
+
+.colorback_dark{
+  background-color: #607D8B;
+}
+
+.colorback_dark1{
+  background-color: #546E7A;
+}
+
+.colorback_dark2{
+  background-color: #455A64;
+}
+
+.colorback_dark3{
+  background-color: #37474F;
+}
+
+.colorback_dark4{
+  background-color: #263238;
+}
+/*oveerriden*/
+.mdl-card {
+    
+    /*background: rgb(216, 111, 111);*/
+  }
+
+.kids_jumping_svg{
+
+  background: url('../assets/demos/Kids_jumping_on_books.svg') center / 100% 100% no-repeat;
+}
+
+.kids-swinging{
+    background: url('../assets/demos/kids_swinging.svg') center / 100% 100% no-repeat,;
+}
+
+.Kids-background1{
+  background: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.5) 90%),url('../assets/demos/more.svg') top / 100%  no-repeat;
+}
+
+.Kids-background2{
+  background: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.5) 90%),url('../assets/demos/HAPPY_KIDS.svg') center / 100%  no-repeat;
+}
+.Kids-background3{
+  background: url('../assets/demos/KIDAreadingseep.svg') center / 100%  no-repeat;
+}
+.Kids-background4{
+  background: url('../assets/demos/KIDSREADINGSIT.svg') center / 100%  no-repeat;
+}
+
+.Kids-background5{
+  background: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.5) 90%),url('../assets/demos/PAPERscene.svg') center / 100%  no-repeat;
+}
+
+.mdl-card__title-text{
+
+
+}
+
+.mdl-card__supporting-text{
+/*background-color: rgba(0,0,0,0.3);*/
+width: 100%;
+
+
+}
+.mdl-card__actions{
+  /*background-color: rgba(0,0,0,0.5);*/
+width: 100%;
+}
+
+
